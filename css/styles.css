@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*****Globales*****/
+body {
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-weight: 400;
+    color: #4a4a4a;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #025157;
+}
+
+/***** Utilidades *****/
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/***** Header *****/
+header {
+    width: 100%;
+    height: 800px;
+    padding: 40px 10px;
+    font-size: 16px;
+}
+
+.header-barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header-logo {
+    width: 15%;
+}
+
+.header-logo img {
+    width: 180px;
+}
+
+.header-navbar {
+    width: 70%;
+    text-align: center;
+}
+
+.header-navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.header-sign-in {
+    width: 15%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header-sign-in button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #025157;
+    margin-left: 15px;
+}
+
+.header-sign-in button a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header-sign-in a:hover {
+    border-bottom: 2px #4a4a4a solid;
+    transition-delay: 0.2s;
+}
+
+/***** Header Contenido  *****/
+.header-contenido {
+    display: flex;
+    height: 500px;
+    width: 85%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.header-texto-video {
+    width: 50%;
+    margin: 0 50px;
+    text-align: left;
+}
+
+.header-texto-video h1 {
+    color: #025157;
+    font-size: 57px;
+    line-height: 63px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.header-texto-video span {
+    color: #46484c;
+    font-size: 20px;
+}
+
+.header-shopify button a {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #025157;
+    margin-left: 15px;
+}
+
+.header-video {
+    position: relative;
+}
