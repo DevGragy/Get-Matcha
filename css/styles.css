@@ -106,8 +106,8 @@ header {
 /***** Header Contenido  *****/
 .header-contenido {
     display: flex;
-    height: 500px;
-    width: 85%;
+    padding: 0;
+    width: 90%;
     margin: 100px auto;
     text-align: center;
 }
@@ -160,7 +160,14 @@ header {
 }
 
 .header-video {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-video iframe {
+    width: 500px;
+    height: 300px;
 }
 
 .header-logos {
@@ -670,7 +677,8 @@ td {
 /*****  Footer *****/
 footer {
     padding: 120px 0 0 0;
-    max-width: 70%;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .for-free {
@@ -818,8 +826,306 @@ footer {
 /*****  Media Query Celular *****/
 
 @media (max-width: 600px) {
-}
+    /*****  Header *****/
+    header {
+        padding: 0;
+    }
 
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header-barra {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .header-logo {
+        width: 35%;
+    }
+
+    .header-navbar,
+    .header-sign-in {
+        display: none;
+    }
+
+    .txt-get-started {
+        font-size: 14px;
+        color: #025157;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .header-contenido {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .header-texto-video {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-texto-video h1 {
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .header-shopify {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-shopify button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header-video {
+        width: 95%;
+        margin: 40px 0;
+    }
+
+    .header-video iframe {
+        height: 200px;
+    }
+
+    .header-logos p {
+        font-size: 15px;
+        letter-spacing: 1.4px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .logos {
+        text-align: center;
+        margin: 60px 0;
+    }
+    /*****  Top Features *****/
+    .texto-features {
+        margin: 0;
+    }
+
+    .texto-features h2 {
+        font-size: 30px;
+    }
+
+    .texto-features p {
+        font-weight: 400;
+        font-size: 18px;
+        color: #4a4a4a;
+    }
+
+    .contenido-features {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards {
+        margin-top: 40px;
+    }
+    /*****  Tools to Help *****/
+    .tools-to-help {
+        padding: 60px 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .tools-to-help h2 {
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .section-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-cards h3 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    /*****  Growing ecommerce *****/
+    .growing-ecommerce {
+        display: flex;
+        width: 100%;
+        padding: 40px 0;
+        flex-direction: column;
+    }
+
+    .card-ecommerce {
+        order: 1;
+        margin: 40px;
+        width: 300px;
+    }
+
+    .text-ecommerce {
+        padding: 0 20px;
+        flex: 1;
+    }
+
+    .text-ecommerce h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    /*****  Matcha Compares *****/
+    .matcha-compare {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .matcha-compare h2 {
+        font-size: 30px;
+    }
+
+    .estilos-tabla h2 {
+        font-size: 10px;
+    }
+
+    .main-col {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-col h3 {
+        font-size: 10px;
+    }
+
+    .main-col p {
+        display: none;
+    }
+
+    .single-col p {
+        font-size: 10px;
+    }
+
+    .single-col {
+        height: 50px;
+        padding: 0;
+    }
+
+    .single-col img {
+        max-width: 20px;
+    }
+    /*****  Matcha Compares *****/
+    .powers-letter {
+        padding: 40px 0;
+    }
+
+    .powers-letter h2 {
+        font-size: 30px;
+    }
+    .wheel-card {
+        width: 90%;
+    }
+    /*****  Matcha 4Cards *****/
+    .matcha-powers {
+        padding-bottom: 60px;
+    }
+    .matcha-4cards {
+        display: block;
+        padding-top: 0;
+    }
+
+    .matcha-card {
+        margin-right: 0;
+        width: 90%;
+    }
+
+    .cardsOT {
+        padding-top: 0;
+    }
+
+    .mcardOne h2 {
+        font-size: 32px;
+        padding-top: 30px;
+    }
+    /*****  Footer *****/
+    footer {
+        padding-top: 0;
+    }
+
+    .for-free {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .for-free-box1 {
+        margin-left: 10px;
+    }
+
+    .for-free-box1 h3 {
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .for-free-box2 {
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .text-footer {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-footer-one {
+        flex: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .site-footer-one button {
+        max-width: 100%;
+    }
+
+    .site-footer-two {
+        flex-direction: column;
+        text-align: center;
+    }
+    .txt-nav-foo {
+        margin: 20px 0;
+    }
+
+    .social-media-footer {
+        flex-direction: column;
+    }
+
+    .iconos-social-media {
+        margin-bottom: 20px;
+    }
+
+    .iconos-wrapper {
+        margin: 20px;
+    }
+
+    .iconos-wrapper img {
+        margin: 0 10px;
+    }
+
+    .iconos-wrapper img:first-child {
+        margin-left: 0;
+    }
+}
 /*****  Media Query Tablet *****/
 @media (min-width: 601px) and (max-width: 768px) {
 }
@@ -830,4 +1136,7 @@ footer {
 
 /*****  Media Query Large Desktop *****/
 @media (min-width: 1200px) {
+    .txt-get-started {
+        display: none;
+    }
 }
