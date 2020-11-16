@@ -815,18 +815,19 @@ footer {
     text-align: right;
 }
 
-/** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
+/*****  Media Query Celular *****/
+
+@media (max-width: 600px) {
 }
 
-/** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
+/*****  Media Query Tablet *****/
+@media (min-width: 601px) and (max-width: 768px) {
 }
 
-/** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
+/*****  Media Query Desktop*****/
+@media (min-width: 769px) and (max-width: 1199px) {
 }
 
-/** dispositivos extra grandes (monitores grandes, tvs) */
+/*****  Media Query Large Desktop *****/
 @media (min-width: 1200px) {
 }
