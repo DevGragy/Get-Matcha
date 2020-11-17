@@ -1396,9 +1396,6 @@ footer {
 
 /*****  Media Query Desktop*****/
 @media (min-width: 769px) and (max-width: 1199px) {
-    body {
-        background-color: red;
-    }
 }
 
 /*****  Media Query Large Desktop *****/
