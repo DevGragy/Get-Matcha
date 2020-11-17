@@ -1528,4 +1528,15 @@ footer {
     .txt-get-started {
         display: none;
     }
+
+    /*****  Header *****/
+    .header-sign-in {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-sign-in button {
+        margin-left: 20px;
+    }
 }
