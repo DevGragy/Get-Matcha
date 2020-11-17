@@ -1198,6 +1198,7 @@ footer {
 
     .header-video iframe {
         height: 300px;
+        max-width: 500px;
     }
 
     .header-logos p {
@@ -1396,15 +1397,135 @@ footer {
 
 /*****  Media Query Desktop*****/
 @media (min-width: 769px) and (max-width: 1199px) {
+    /*****  Header *****/
+    header {
+        padding: 0;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .header-barra {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .header-logo {
+        width: 35%;
+    }
+
+    .header-navbar,
+    .header-sign-in {
+        display: none;
+    }
+
+    .header-contenido {
+        padding-top: 60px;
+
+        margin: 0;
+        width: 100%;
+    }
+
+    /*****  Tools to Help *****/
+    .section-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 40px;
+    }
+    /*****  Matcha Compares *****/
+    .matcha-compare {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .matcha-compare h2 {
+        font-size: 55px;
+    }
+
+    .estilos-tabla h2 {
+        font-size: 20px;
+    }
+
+    .main-col {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-col h3 {
+        font-size: 20px;
+    }
+
+    .single-col p {
+        font-size: 20px;
+    }
+
+    .single-col {
+        height: 50px;
+        padding: 0;
+    }
+
+    .single-col img {
+        max-width: 20px;
+    }
+    /*****  Matcha 4Cards *****/
+    .matcha-4cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    /*****  Footer *****/
+    footer {
+        padding-top: 0;
+    }
+
+    .for-free {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .for-free-box1 {
+        margin-left: 10px;
+    }
+
+    .for-free-box1 h3 {
+        font-size: 25px;
+    }
+
+    .for-free-box2 {
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 0;
+        align-self: flex-start;
+    }
+    .text-footer {
+        margin-left: 0;
+    }
+    .site-footer-one {
+        padding: 0 20px;
+    }
+    .site-footer-two {
+        flex: 1;
+        flex-wrap: wrap;
+    }
+
+    .txt-nav-foo {
+        margin: 0 30px;
+    }
 }
 
 /*****  Media Query Large Desktop *****/
 @media (min-width: 1200px) {
     .txt-get-started {
         display: none;
-    }
-
-    body {
-        background-color: purple;
     }
 }
