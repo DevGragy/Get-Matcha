@@ -28,9 +28,8 @@ img {
 /***** Utilidades *****/
 .container {
     width: 90%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin: 0 auto;
+    padding: 0;
 }
 
 .btn-verde-strong {
@@ -724,7 +723,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 72px 0 60px;
-    margin-left: 15px;
+    margin-left: 20px;
     justify-content: space-between;
 }
 
@@ -761,7 +760,7 @@ footer {
 }
 
 .txt-nav-foo {
-    margin: 0 40px;
+    margin: 0 20px;
     display: flex;
     flex-direction: column;
 }
@@ -1022,7 +1021,7 @@ footer {
     .single-col img {
         max-width: 20px;
     }
-    /*****  Matcha Compares *****/
+    /*****  Matcha Powers *****/
     .powers-letter {
         padding: 40px 0;
     }
@@ -1128,6 +1127,271 @@ footer {
 }
 /*****  Media Query Tablet *****/
 @media (min-width: 601px) and (max-width: 768px) {
+    /*****  Header *****/
+    header {
+        padding: 0;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header-barra {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .header-logo {
+        width: 35%;
+    }
+
+    .header-navbar,
+    .header-sign-in {
+        display: none;
+    }
+
+    .txt-get-started {
+        font-size: 14px;
+        color: #025157;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .header-contenido {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .header-texto-video {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-texto-video h1 {
+        font-size: 57px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .header-shopify {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-shopify button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header-video {
+        width: 95%;
+        margin: 40px 0;
+    }
+
+    .header-video iframe {
+        height: 300px;
+    }
+
+    .header-logos p {
+        font-size: 15px;
+        letter-spacing: 1.4px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .logos {
+        text-align: center;
+        margin: 60px 0;
+    }
+    /*****  Tools to Help *****/
+    .tools-to-help {
+        padding: 60px 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .tools-to-help h2 {
+        font-size: 36px;
+        margin-top: 60px;
+    }
+
+    .section-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .section-cards h3 {
+        font-size: 19px;
+        font-weight: 700;
+    }
+    /*****  Growing ecommerce *****/
+    .growing-ecommerce {
+        display: flex;
+        width: 100%;
+        padding: 40px 0;
+        flex-direction: column;
+    }
+
+    .card-ecommerce {
+        order: 1;
+        margin: 40px;
+        width: 300px;
+    }
+
+    .text-ecommerce {
+        padding: 0 20px;
+        flex: 1;
+    }
+
+    .text-ecommerce h2 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    /*****  Matcha Compares *****/
+    .matcha-compare {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .matcha-compare h2 {
+        font-size: 55px;
+    }
+
+    .estilos-tabla h2 {
+        font-size: 10px;
+    }
+
+    .main-col {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-col h3 {
+        font-size: 10px;
+    }
+
+    .main-col p {
+        display: none;
+    }
+
+    .single-col p {
+        font-size: 10px;
+    }
+
+    .single-col {
+        height: 50px;
+        padding: 0;
+    }
+
+    .single-col img {
+        max-width: 20px;
+    }
+    /*****  Matcha Powers *****/
+    .powers-letter {
+        padding: 40px 0;
+    }
+
+    .powers-letter h2 {
+        font-size: 50px;
+    }
+    .wheel-card {
+        width: 70%;
+    }
+    /*****  Matcha 4Cards *****/
+    .matcha-powers {
+        padding-bottom: 60px;
+    }
+    .matcha-4cards {
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .matcha-card {
+        margin-right: 0;
+        width: 90%;
+    }
+
+    .cardsOT {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mcardOne h2 {
+        font-size: 32px;
+        padding-top: 30px;
+    }
+    /*****  Footer *****/
+    footer {
+        padding-top: 0;
+    }
+
+    .for-free {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .for-free-box1 {
+        margin-left: 10px;
+    }
+
+    .for-free-box1 h3 {
+        font-size: 25px;
+    }
+
+    .for-free-box2 {
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 0;
+        align-self: flex-start;
+    }
+    .text-footer {
+        margin-left: 0;
+    }
+    .site-footer-two {
+        flex: 1;
+        flex-wrap: nowrap;
+    }
+
+    .iconos-social-media {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .iconos-wrapper {
+        margin-left: 0;
+    }
+
+    .ico-mat-foo {
+        margin-bottom: 10px;
+    }
+
+    .iconos-wrapper img {
+        margin: 0 10px;
+    }
+
+    .iconos-wrapper img:first-child {
+        margin-left: 0;
+    }
 }
 
 /*****  Media Query Desktop*****/
