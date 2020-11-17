@@ -1544,27 +1544,6 @@ footer {
         padding-top: 0;
     }
 
-    .for-free {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        justify-content: space-between;
-    }
-
-    .for-free-box1 {
-        margin-left: 10px;
-    }
-
-    .for-free-box1 h3 {
-        font-size: 25px;
-    }
-
-    .for-free-box2 {
-        padding: 0;
-        margin-top: 20px;
-        margin-left: 0;
-        align-self: flex-start;
-    }
     .txt-nav-foo {
         margin-left: 60px;
     }
